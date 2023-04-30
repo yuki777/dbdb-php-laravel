@@ -17,9 +17,14 @@ jobs:
     - name: Generate key
       run: |
         php artisan key:generate
-    - name: Create Database
+    - name: Show version
+      run: |
+        composer dbdb:version
+    - name: Create, Start Database
       run: |
         composer dbdb:mysql-create-start my-awesome-db 8.0.30 3306
+    - name: Show databases
+      run: |
         composer dbdb:list
     - name: Migrate
       run: |
