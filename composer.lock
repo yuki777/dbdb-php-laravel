@@ -7823,16 +7823,16 @@
         },
         {
             "name": "yuki777/dbdb-php",
-            "version": "v0.1.9",
+            "version": "v0.1.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yuki777/dbdb-php.git",
-                "reference": "3d11249e3d910a858bdcfef37dbf58fe7f04f6b2"
+                "reference": "eee5cbacd9752a3ede5c76e863dbc57174f18e8f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yuki777/dbdb-php/zipball/3d11249e3d910a858bdcfef37dbf58fe7f04f6b2",
-                "reference": "3d11249e3d910a858bdcfef37dbf58fe7f04f6b2",
+                "url": "https://api.github.com/repos/yuki777/dbdb-php/zipball/eee5cbacd9752a3ede5c76e863dbc57174f18e8f",
+                "reference": "eee5cbacd9752a3ede5c76e863dbc57174f18e8f",
                 "shasum": ""
             },
             "require": {
@@ -7859,9 +7859,9 @@
             ],
             "support": {
                 "issues": "https://github.com/yuki777/dbdb-php/issues",
-                "source": "https://github.com/yuki777/dbdb-php/tree/v0.1.9"
+                "source": "https://github.com/yuki777/dbdb-php/tree/v0.1.11"
             },
-            "time": "2023-04-30T00:34:48+00:00"
+            "time": "2023-04-30T21:57:42+00:00"
         }
     ],
     "aliases": [],
