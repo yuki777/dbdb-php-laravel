@@ -1,0 +1,29 @@
+name: UnitTest
+
+on:
+  push:
+
+jobs:
+  laravel-tests:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Install Dependencies
+      run: |
+        composer install --no-ansi --no-interaction --no-progress --prefer-dist
+    - name: Copy .env
+      run: |
+        php -r "file_exists('.env') || copy('.env.example', '.env');"
+    - name: Generate key
+      run: |
+        php artisan key:generate
+    - name: Create Database
+      run: |
+        composer dbdb:mysql-create-start my-awesome-db 8.0.30 3306
+        composer dbdb:list
+    - name: Migrate
+      run: |
+        php artisan migrate --force
+    - name: Execute tests
+      run: |
+        php artisan test
