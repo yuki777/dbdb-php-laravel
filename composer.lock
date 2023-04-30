@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8e6e7fe5fd9d19060838a2fee2857ca4",
+    "content-hash": "ce7152634fb0193f173b1a7a6f483ba8",
     "packages": [
         {
             "name": "brick/math",
@@ -7820,6 +7820,48 @@
                 }
             ],
             "time": "2021-07-28T10:34:58+00:00"
+        },
+        {
+            "name": "yuki777/dbdb-php",
+            "version": "v0.1.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yuki777/dbdb-php.git",
+                "reference": "3d11249e3d910a858bdcfef37dbf58fe7f04f6b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yuki777/dbdb-php/zipball/3d11249e3d910a858bdcfef37dbf58fe7f04f6b2",
+                "reference": "3d11249e3d910a858bdcfef37dbf58fe7f04f6b2",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^2.0"
+            },
+            "require-dev": {
+                "composer/composer": "^2.0",
+                "ext-pdo_mysql": "*",
+                "phpunit/phpunit": "^10.0",
+                "squizlabs/php_codesniffer": "^3.7"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "DbdbPhp\\Composer\\Plugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "DbdbPhp\\Composer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/yuki777/dbdb-php/issues",
+                "source": "https://github.com/yuki777/dbdb-php/tree/v0.1.9"
+            },
+            "time": "2023-04-30T00:34:48+00:00"
         }
     ],
     "aliases": [],
