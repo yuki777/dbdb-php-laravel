@@ -33,4 +33,4 @@ php artisan test
 ```
 
 ## CI
-- ...
+- [GitHub Actions example](https://github.com/yuki777/dbdb-php-laravel/blob/main/.github/workflows/test.yaml#L23-L26) and [result](https://github.com/yuki777/dbdb-php-laravel/actions/runs/4900133225/jobs/8750582150)
