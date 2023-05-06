@@ -20,9 +20,10 @@ jobs:
     - name: Show version
       run: |
         composer dbdb:version
-    - name: Create, Start Database
+    - name: Create and start databases
       run: |
-        composer dbdb:mysql-create-start my-awesome-db 8.0.30 3306
+        composer dbdb:mysql create-start --db-name=my-mysql-5 --db-version=8.0.30  --db-port=3306
+        composer dbdb:redis create-start --db-name=my-redis-6 --db-version=6.2.6   --db-port=6379
     - name: Show databases
       run: |
         composer dbdb:list
