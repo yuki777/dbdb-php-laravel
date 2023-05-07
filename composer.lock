@@ -6202,16 +6202,16 @@
         },
         {
             "name": "phpunit/php-file-iterator",
-            "version": "4.0.1",
+            "version": "4.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-file-iterator.git",
-                "reference": "fd9329ab3368f59fe1fe808a189c51086bd4b6bd"
+                "reference": "5647d65443818959172645e7ed999217360654b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/fd9329ab3368f59fe1fe808a189c51086bd4b6bd",
-                "reference": "fd9329ab3368f59fe1fe808a189c51086bd4b6bd",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/5647d65443818959172645e7ed999217360654b6",
+                "reference": "5647d65443818959172645e7ed999217360654b6",
                 "shasum": ""
             },
             "require": {
@@ -6250,7 +6250,8 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-file-iterator/issues",
-                "source": "https://github.com/sebastianbergmann/php-file-iterator/tree/4.0.1"
+                "security": "https://github.com/sebastianbergmann/php-file-iterator/security/policy",
+                "source": "https://github.com/sebastianbergmann/php-file-iterator/tree/4.0.2"
             },
             "funding": [
                 {
@@ -6258,7 +6259,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-02-10T16:53:14+00:00"
+            "time": "2023-05-07T09:13:23+00:00"
         },
         {
             "name": "phpunit/php-invoker",
@@ -7884,16 +7885,16 @@
         },
         {
             "name": "yuki777/dbdb-php",
-            "version": "v0.1.18",
+            "version": "v0.1.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yuki777/dbdb-php.git",
-                "reference": "67a71fa1b47e409591b9e1de2a410cccce3db794"
+                "reference": "c114b727704d2e26bf6b326eae340e64f68827cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yuki777/dbdb-php/zipball/67a71fa1b47e409591b9e1de2a410cccce3db794",
-                "reference": "67a71fa1b47e409591b9e1de2a410cccce3db794",
+                "url": "https://api.github.com/repos/yuki777/dbdb-php/zipball/c114b727704d2e26bf6b326eae340e64f68827cd",
+                "reference": "c114b727704d2e26bf6b326eae340e64f68827cd",
                 "shasum": ""
             },
             "require": {
@@ -7920,9 +7921,9 @@
             ],
             "support": {
                 "issues": "https://github.com/yuki777/dbdb-php/issues",
-                "source": "https://github.com/yuki777/dbdb-php/tree/v0.1.18"
+                "source": "https://github.com/yuki777/dbdb-php/tree/v0.1.19"
             },
-            "time": "2023-05-07T05:22:27+00:00"
+            "time": "2023-05-07T09:22:02+00:00"
         }
     ],
     "aliases": [],
