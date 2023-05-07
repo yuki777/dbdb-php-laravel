@@ -7885,16 +7885,16 @@
         },
         {
             "name": "yuki777/dbdb-php",
-            "version": "v0.1.19",
+            "version": "v0.1.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yuki777/dbdb-php.git",
-                "reference": "c114b727704d2e26bf6b326eae340e64f68827cd"
+                "reference": "a6b51f33f9ab76e366969bc9e9850481763ff366"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yuki777/dbdb-php/zipball/c114b727704d2e26bf6b326eae340e64f68827cd",
-                "reference": "c114b727704d2e26bf6b326eae340e64f68827cd",
+                "url": "https://api.github.com/repos/yuki777/dbdb-php/zipball/a6b51f33f9ab76e366969bc9e9850481763ff366",
+                "reference": "a6b51f33f9ab76e366969bc9e9850481763ff366",
                 "shasum": ""
             },
             "require": {
@@ -7919,11 +7919,23 @@
             "license": [
                 "MIT"
             ],
+            "description": "Database version manager for MySQL, PostgreSQL, MongoDB & Redis",
+            "keywords": [
+                "composer",
+                "database",
+                "manager",
+                "mongodb",
+                "mysql",
+                "plugin",
+                "postgresql",
+                "redis",
+                "version"
+            ],
             "support": {
                 "issues": "https://github.com/yuki777/dbdb-php/issues",
-                "source": "https://github.com/yuki777/dbdb-php/tree/v0.1.19"
+                "source": "https://github.com/yuki777/dbdb-php/tree/v0.1.20"
             },
-            "time": "2023-05-07T09:22:02+00:00"
+            "time": "2023-05-07T10:45:41+00:00"
         }
     ],
     "aliases": [],
